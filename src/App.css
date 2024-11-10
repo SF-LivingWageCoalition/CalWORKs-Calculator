@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  text-align: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(207, 207, 207);
+  padding: 20px 10px 40px 10px;
+  width: 650px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 2px 1px rgb(207, 207, 207);
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+#reset-button, #submit-button{
+  border:none;
+}
+
+.numeric-input, .form-select{
+  width: 100px;
+  display: inline-block;
+}
+
+#county-selection{
+  width: 160px;
+}
+
+#monthly-earned-income, #monthly-unearned-income, #monthly-disabilities-benefit{
+  width: 140px;
+}
+
+.flexbox-rows{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 10px 10px 10px;
+
+}
+
+#disability-query{
+  width: 100px;
+}
+
+#flex-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+ 
+input{
+  text-align: center;
+}
+
+#calculator-description{
+  margin: 20px 10px 10px 10px;
+}
+
+#submit-button{
+  margin-right: 20px;
+}
+
+#reset-button{
+  margin-left: 20px;
+}
+
+#form-heading{
+  margin-top: 30px;
+}
+
+.result-message{
+  width: 600px;
+  display: inline-block;
+
+}
+
+label{
+  text-align: left;
+}
+
+.disability-tooltip{
+  text-decoration: underline;
+  color: blue;
+}
+
