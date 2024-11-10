@@ -186,12 +186,9 @@ export let MBSACEligibility = () =>{
         else{
             return false;
         }
-        
+        console.log("eha")
     }
-    // console.log("FamilY Number: ", typeof familyNumber);
-    // console.log("Working Family Num: ", typeof workingFamilyNumber);
-    // console.log("SSI Family Num: ", typeof SSIFamilyNumber);
-    // console.log("Earned Income: ", typeof earnedIncome);
+
    
 }
 
